@@ -34,8 +34,6 @@ Accurate occupancy detection of an office room from light, temperature, humidity
 
 Analysis Summary:
 
-The sensor data is treated as time series data for 1D convolutional neural network. Although event sequence is not intuitively considered necessary
-for the described classification problem, in other words, a simpler logistic regression approach may produce similar levels of accuracy, this 
-serves as a useful framework for more complex problems, such as those involving more complex signals or more sensors. Of particular interest to me
+The sensor data is treated as time series data for 1D convolutional neural network which achieves 95%+ accuracy. Although event sequence is not intuitively considered necessary for the described classification problem, in other words, a simpler logistic regression approach may produce similar levels of accuracy, this serves as a useful framework for more complex problems, such as those involving more complex signals or more sensors. Of particular interest to me
 would be structural health monitoring in automotive or aerospace applications, where it would be necessary to know the realtime structural integrity
-of a mechanical system before catastrophic failure.
+of a mechanical system before catastrophic failure. 
